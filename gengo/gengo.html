@@ -77,67 +77,80 @@
       </div>
     </header>
 
-    
-<main class="flex flex-col items-center justify-center text-center px-6 py-24">
-  <h2
-    class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-6"
+    <!-- Hero -->
+<main
+  class="flex flex-col items-center justify-center text-center px-6 py-24 font-mono"
+>
+  <h1
+    class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight"
   >
-    Building Tools with Soul
-  </h2>
+    Gengo
+  </h1>
   <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-xl">
-    Saasuke-Labs crafts simple, purposeful software — from tiny tools to
-    thoughtful platforms.
+    A developer-friendly static site generator that embraces simplicity,
+    clarity, and speed.
   </p>
   <a
-    href="#contact"
-    class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition"
+    href="#features"
+    class="bg-indigo-600 text-white px-6 py-3 rounded-full shadow hover:bg-indigo-700 transition"
   >
-    Get in Touch
+    See Features
   </a>
 </main>
 
-
-<section id="about" class="bg-gray-100 dark:bg-gray-800 py-16 px-6 text-center">
-  <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-    What is Saasuke-Labs?
-  </h3>
-  <p class="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-    A playground and portfolio for software experiments, product prototypes, and
-    potential tools for people and businesses. Driven by curiosity, built with
-    care.
-  </p>
-</section>
-
-
-<section id="projects" class="bg-white dark:bg-gray-900 py-20 px-6">
-  <div class="max-w-6xl mx-auto text-center">
-    <h3 class="text-3xl font-bold mb-12 text-gray-900 dark:text-white">
-      Current Projects
-    </h3>
-    <div class="grid gap-12 md:grid-cols-2">
-      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-        <h4
+<!-- Features -->
+<section id="features" class="bg-gray-100 dark:bg-gray-800 py-20 px-6">
+  <div class="max-w-4xl mx-auto text-left font-mono">
+    <h2
+      class="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white"
+    >
+      Why Gengo?
+    </h2>
+    <ul class="space-y-8">
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
           class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
         >
-          <a href="/gengo/gengo.html">Gengo</a>
-        </h4>
+          Minimal Setup
+        </h3>
         <p class="text-gray-700 dark:text-gray-300">
-          A modern, simple, yet powerful static site generator.
+          Start with one command. Gengo doesn’t ask questions — it just builds.
         </p>
-      </div>
-      <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-        <h4
+      </li>
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
           class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
         >
-          <a href="/kotomi/kotomi.html">Kotomi</a>
-        </h4>
+          Fast, Pure Go
+        </h3>
         <p class="text-gray-700 dark:text-gray-300">
-          A simple comment system for static sites — with AI-powered moderation
-          as a premium feature. Lightweight, privacy-focused, and easy to
-          integrate.
+          No Node, no baggage. Just raw speed with native Go performance.
         </p>
-      </div>
-    </div>
+      </li>
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
+          class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
+        >
+          Smart Defaults
+        </h3>
+        <p class="text-gray-700 dark:text-gray-300">
+          No config needed — but easily customizable when you're ready.
+        </p>
+      </li>
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
+          class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
+        >
+          Made for Devs
+        </h3>
+        <pre
+          class="bg-gray-100 dark:bg-gray-800 p-4 rounded text-sm overflow-x-auto"
+        ><code>$ gengo init
+$ gengo generate
+$ gengo serve --watch
+$ gengo deploy</code></pre>
+      </li>
+    </ul>
   </div>
 </section>
 
