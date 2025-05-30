@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7ZYXW0159J"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7ZYXW0159J");
+    </script>
+
+    <title>Saasuke-Labs</title>
+    <script>
+      
+      function toggleDarkMode() {
+        document.documentElement.classList.toggle("dark");
+      }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans transition-colors duration-300"
+  >
+    
+    <header class="bg-white dark:bg-gray-800 shadow">
+      <div
+        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center space-x-3">
+          <img
+            src="/static/logo.png"
+            alt="Saasuke-Labs Logo"
+            class="h-10 w-auto"
+          />
+          <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400"
+            ><a href="/">Saasuke-Labs</a></span
+          >
+        </div>
+        <nav class="flex items-center space-x-4" style="display: none">
+          <a
+            href="#about"
+            class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >About</a
+          >
+          <a
+            href="#projects"
+            class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
+            >Projects</a
+          >
+          <button
+            onclick="toggleDarkMode()"
+            class="text-sm px-3 py-1 rounded border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+          >
+            Toggle Dark Mode
+          </button>
+        </nav>
+        <div>
+          <script
+            type="text/javascript"
+            src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"
+          ></script>
+          <script type="text/javascript">
+            kofiwidget2.init("Support me on Ko-fi", "#818cf8", "V7V61FM5Z5");
+            kofiwidget2.draw();
+          </script>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+<main
+  class="flex flex-col items-center justify-center text-center px-6 py-24 font-mono"
+>
+  <h1
+    class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-6 tracking-tight"
+  >
+    GSX
+  </h1>
+  <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-xl">
+    A Go-first, server-side rendering toolkit with JSX-like composability and
+    zero-runtime overhead.
+  </p>
+  <a
+    href="#features"
+    class="bg-indigo-600 text-white px-6 py-3 rounded-full shadow hover:bg-indigo-700 transition"
+  >
+    See Examples
+  </a>
+</main>
+
+<!-- Features -->
+<section id="features" class="bg-gray-100 dark:bg-gray-800 py-20 px-6">
+  <div class="max-w-4xl mx-auto text-left font-mono">
+    <h2
+      class="text-3xl font-bold text-center mb-12 text-gray-900 dark:text-white"
+    >
+      GSX in Action
+    </h2>
+    <ul class="space-y-12">
+      <!-- View -->
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
+          class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
+        >
+          View (Rendered HTML)
+        </h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">
+          A simple component that renders HTML directly, like a standalone tag:
+        </p>
+        <pre
+          class="bg-gray-100 dark:bg-gray-800 p-4 rounded text-sm overflow-x-auto"
+        ><code>&lt;div class="inline-block bg-blue-100 text-blue-800 text-xs font-medium px-3 py-1 rounded-full"&gt;
+  &lt;span&gt;{{ .name }}&lt;/span&gt;
+&lt;/div&gt;
+</code></pre>
+      </li>
+
+      <!-- Section -->
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
+          class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
+        >
+          Section (Component + Attributes)
+        </h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">
+          Components can call other components and pass attributes like props:
+        </p>
+        <pre
+          class="bg-gray-100 dark:bg-gray-800 p-4 rounded text-sm overflow-x-auto"
+        ><code>&lt;section class="bg-white shadow-md rounded-2xl p-6"&gt;
+  &lt;h2 class="text-xl font-semibold mb-2"&gt;{{ .title }}&lt;/h2&gt;
+  &lt;p class="mb-4 text-gray-700"&gt;{{ .content }}&lt;/p&gt;
+  &lt;Tag name={tag} /&gt;
+&lt;/section&gt;
+</code></pre>
+      </li>
+
+      <!-- Full Page -->
+      <li class="bg-white dark:bg-gray-900 p-6 rounded-lg shadow">
+        <h3
+          class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
+        >
+          Full Page (Components Composing Components)
+        </h3>
+        <p class="text-gray-700 dark:text-gray-300 mb-4">
+          Just like JSX — but it's Go. Server-rendered, fast, and testable:
+        </p>
+        <pre
+          class="bg-gray-100 dark:bg-gray-800 p-4 rounded text-sm overflow-x-auto"
+        ><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8" /&gt;
+    &lt;title&gt;GSX Playground&lt;/title&gt;
+    &lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body class="bg-gray-100 text-gray-800 font-sans"&gt;
+    &lt;Header /&gt;
+
+    &lt;main class="max-w-3xl mx-auto px-4 py-12 space-y-8"&gt;
+      &lt;Section title="Section Title" content="This is a paragraph in the section." tag="Example Tag" /&gt;
+      &lt;Section title="Another Section" content="More content here." tag="Another Tag" /&gt;
+      &lt;Section title="Final Section" content="Last bit of content." tag="Final Tag" /&gt;
+    &lt;/main&gt;
+
+    &lt;footer class="text-center text-sm text-gray-500 py-8"&gt;
+      &copy; 2025 Saasuke Labs
+    &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+    
+    <footer
+      class="bg-white dark:bg-gray-900 text-center text-sm text-gray-500 dark:text-gray-400 py-6"
+    >
+      © 2025 Saasuke-Labs. All rights reserved.
+    </footer>
+  </body>
+</html>
