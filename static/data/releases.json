@@ -3,8 +3,8 @@
     "gengo": {
       "name": "Gengo",
       "repo": "saasuke-labs/gengo",
-      "latest": "v0.0.15",
-      "latestDate": "2026-11-15T08:10:27Z"
+      "latest": "v0.0.16",
+      "latestDate": "2026-11-15T17:42:36Z"
     },
     "nagare": {
       "name": "Nagare",
@@ -20,6 +20,16 @@
     }
   },
   "releases": [
+    {
+      "id": "gengo-v0.0.16",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.16",
+      "prerelease": false,
+      "date": "2026-11-15T17:42:36Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.16",
+      "summary": "Bump nagare to v0.0.15"
+    },
     {
       "id": "nagare-v0.0.15",
       "product": "nagare",
@@ -259,16 +269,6 @@
       "date": "2025-05-15T08:40:21Z",
       "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.2",
       "summary": "feat: copy static files"
-    },
-    {
-      "id": "gengo-v0.0.1",
-      "product": "gengo",
-      "productName": "Gengo",
-      "tag": "v0.0.1",
-      "prerelease": false,
-      "date": "2025-05-13T07:56:24Z",
-      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.1",
-      "summary": "chore: tidy go modules"
     }
   ]
 }

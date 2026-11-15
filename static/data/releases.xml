@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://saasuke-labs.com/releases/</id>
   <title>Saasuke Labs releases</title>
-  <updated>2026-11-15T17:04:12Z</updated>
+  <updated>2026-11-15T17:42:36Z</updated>
   <author><name>Saasuke Labs</name></author>
   <link href="https://saasuke-labs.com/releases/"/>
   <link rel="self" href="https://saasuke-labs.com/static/data/releases.xml"/>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.16</id>
+    <title>Gengo v0.0.16</title>
+    <updated>2026-11-15T17:42:36Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.16"/>
+    <summary>Bump nagare to v0.0.15</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/f48f10717876d8f60cbbd60860a9e3f51494b713/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/f48f10717876d8f60cbbd60860a9e3f51494b713&quot;&gt;&lt;tt&gt;f48f107&lt;/tt&gt;&lt;/a&gt; Bump nagare to v0.0.15&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/229501850b81e0a289c8ff8c58fedef150ad2507/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/229501850b81e0a289c8ff8c58fedef150ad2507&quot;&gt;&lt;tt&gt;2295018&lt;/tt&gt;&lt;/a&gt; Bump nagare to v0.0.14&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/048c6d0e171cd84de9d4fb1ab2ca791c665eb4d5/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/048c6d0e171cd84de9d4fb1ab2ca791c665eb4d5&quot;&gt;&lt;tt&gt;048c6d0&lt;/tt&gt;&lt;/a&gt; Add AGENTS.md agent guide and CLAUDE.md (&lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;6405447528&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/26&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/26/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/26&quot;&gt;#26&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/770ea4b2278c60a755c4df36e7da7a71f48d7754/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/770ea4b2278c60a755c4df36e7da7a71f48d7754&quot;&gt;&lt;tt&gt;770ea4b&lt;/tt&gt;&lt;/a&gt; Add docs page in site design, rebuild site on release&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.15</id>
     <title>Nagare v0.0.15</title>
@@ -335,17 +349,6 @@
     <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/caf1d9919c1e09050545b9d9d401a7cbcf4ae877/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/caf1d9919c1e09050545b9d9d401a7cbcf4ae877&quot;&gt;&lt;tt&gt;caf1d99&lt;/tt&gt;&lt;/a&gt; feat: copy static files&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.1</id>
-    <title>Gengo v0.0.1</title>
-    <updated>2025-05-13T07:56:24Z</updated>
-    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.1"/>
-    <summary>chore: tidy go modules</summary>
-    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/ad57670aadc4d49bfc412a4489e9ef83c39f6927/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/ad57670aadc4d49bfc412a4489e9ef83c39f6927&quot;&gt;&lt;tt&gt;ad57670&lt;/tt&gt;&lt;/a&gt; chore: tidy go modules&lt;/li&gt;
 &lt;/ul&gt;</content>
   </entry>
 </feed>
