@@ -75,3 +75,19 @@
       /* Keep the static fallback. */
     });
 })();
+
+// Nagare diagrams with animations play once; replay them on a loop.
+(function () {
+  var still = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  document.querySelectorAll("svg[data-loop]").forEach(function (svg) {
+    if (typeof svg.setCurrentTime !== "function") return;
+    if (still) {
+      svg.pauseAnimations();
+      return;
+    }
+    var seconds = parseFloat(svg.getAttribute("data-loop")) || 6;
+    setInterval(function () {
+      svg.setCurrentTime(0);
+    }, seconds * 1000);
+  });
+})();

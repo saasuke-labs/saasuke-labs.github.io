@@ -988,6 +988,45 @@ pre .dim {
   color: #57504a;
 }
 
+/* Diagrams rendered with the dark theme keep a dark canvas in both site themes. */
+.figure.dark {
+  background: #16110f;
+  border-color: #3a302b;
+}
+
+.figure.dark figcaption {
+  color: #b9aea6;
+}
+
+.docs .prose h3 {
+  margin-top: 2em;
+}
+
+/* ---------- Home: Nagare showcase ---------- */
+
+.showcase {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: clamp(20px, 3vw, 36px);
+  align-items: start;
+}
+
+.showcase .figure {
+  margin: 0;
+}
+
+.showcase pre {
+  font-size: 0.76rem;
+  max-height: 420px;
+  overflow: auto;
+}
+
+@media (max-width: 900px) {
+  .showcase {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
 @media (max-width: 820px) {
   .docs {
     grid-template-columns: minmax(0, 1fr);
