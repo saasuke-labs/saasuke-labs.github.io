@@ -9,8 +9,8 @@
     "nagare": {
       "name": "Nagare",
       "repo": "saasuke-labs/nagare",
-      "latest": "v0.0.14",
-      "latestDate": "2026-11-15T14:56:22Z"
+      "latest": "v0.0.15",
+      "latestDate": "2026-11-15T17:04:12Z"
     },
     "kotomi": {
       "name": "Kotomi",
@@ -20,6 +20,16 @@
     }
   },
   "releases": [
+    {
+      "id": "nagare-v0.0.15",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.15",
+      "prerelease": false,
+      "date": "2026-11-15T17:04:12Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.15",
+      "summary": "Draw request/response arrows for every component"
+    },
     {
       "id": "nagare-v0.0.14",
       "product": "nagare",
