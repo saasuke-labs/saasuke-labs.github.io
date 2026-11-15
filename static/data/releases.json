@@ -9,8 +9,8 @@
     "nagare": {
       "name": "Nagare",
       "repo": "saasuke-labs/nagare",
-      "latest": "v0.0.13",
-      "latestDate": "2026-11-14T22:31:41Z"
+      "latest": "v0.0.14",
+      "latestDate": "2026-11-15T14:56:22Z"
     },
     "kotomi": {
       "name": "Kotomi",
@@ -20,6 +20,16 @@
     }
   },
   "releases": [
+    {
+      "id": "nagare-v0.0.14",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.14",
+      "prerelease": false,
+      "date": "2026-11-15T14:56:22Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.14",
+      "summary": "Add CLAUDE.md and expand AGENTS.md into a full agent guide (#80)"
+    },
     {
       "id": "gengo-v0.0.15",
       "product": "gengo",
