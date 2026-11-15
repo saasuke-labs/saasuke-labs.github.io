@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://saasuke-labs.com/releases/</id>
+  <title>Saasuke Labs releases</title>
+  <updated>2026-11-15T08:10:27Z</updated>
+  <author><name>Saasuke Labs</name></author>
+  <link href="https://saasuke-labs.com/releases/"/>
+  <link rel="self" href="https://saasuke-labs.com/static/data/releases.xml"/>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.15</id>
+    <title>Gengo v0.0.15</title>
+    <updated>2026-11-15T08:10:27Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.15"/>
+    <summary>Bump nagare to v0.0.13 and detect empty diagrams on a transparent canvas</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/4462f6539cd357c51e77480bf051b5409bfa37a8/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/4462f6539cd357c51e77480bf051b5409bfa37a8&quot;&gt;&lt;tt&gt;4462f65&lt;/tt&gt;&lt;/a&gt; Bump nagare to v0.0.13 and detect empty diagrams on a transparent canvas&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/7c71f73f5508d94363abd6ab75f9bb843124276a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/7c71f73f5508d94363abd6ab75f9bb843124276a&quot;&gt;&lt;tt&gt;7c71f73&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;6396569133&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/25&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/25/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/25&quot;&gt;#25&lt;/a&gt; from saasuke-labs/release/v0.0.14&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.13</id>
+    <title>Nagare v0.0.13</title>
+    <updated>2026-11-14T22:31:41Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.13"/>
+    <summary>Redesign components on a shared style system with light and dark themes</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/c55cfabc6093008ee78364a780eb6869d923149b/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/c55cfabc6093008ee78364a780eb6869d923149b&quot;&gt;&lt;tt&gt;c55cfab&lt;/tt&gt;&lt;/a&gt; Redesign components on a shared style system with light and dark themes&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/kotomi/releases/tag/v0.1.0-beta.1</id>
+    <title>Kotomi v0.1.0-beta.1</title>
+    <updated>2026-11-14T22:11:49Z</updated>
+    <link href="https://saasuke-labs.com/releases/#kotomi-v0.1.0-beta.1"/>
+    <summary>Comprehensive beta tester guide with deployment options (Docker, Cloud Run, binary)</summary>
+    <content type="html">&lt;h3&gt;Added&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Comprehensive beta tester guide with deployment options (Docker, Cloud Run, binary)&lt;/li&gt;
+&lt;li&gt;Admin panel guide with feature documentation and workflows&lt;/li&gt;
+&lt;li&gt;Database backup and restore procedures&lt;/li&gt;
+&lt;li&gt;Release process documentation with checklists and rollback procedures&lt;/li&gt;
+&lt;li&gt;Production-ready Dockerfile with multi-stage build, health checks, and security hardening&lt;/li&gt;
+&lt;li&gt;Automated Cloud Run deployment in CI/CD pipeline&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Changed&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Updated golang.org/x/oauth2 from v0.15.0 to v0.27.0 (security patch)&lt;/li&gt;
+&lt;li&gt;Enhanced Dockerfile for production use (non-root user, health checks, optimized builds)&lt;/li&gt;
+&lt;li&gt;Enabled Cloud Run deployment in GitHub Actions workflow&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Security&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed vulnerability CVE in golang.org/x/oauth2 (Improper Validation of Syntactic Correctness)&lt;/li&gt;
+&lt;li&gt;Added non-root user to Docker container&lt;/li&gt;
+&lt;li&gt;Added health check to Docker container&lt;/li&gt;
+&lt;li&gt;Comprehensive security documentation and audit results&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.14</id>
+    <title>Gengo v0.0.14</title>
+    <updated>2026-11-14T22:07:47Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.14"/>
+    <summary>Add content globs with front matter, template overrides and source timeouts</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/e34abf15b324985bf1a2a192a152ab69e6befac1/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/e34abf15b324985bf1a2a192a152ab69e6befac1&quot;&gt;&lt;tt&gt;e34abf1&lt;/tt&gt;&lt;/a&gt; Add content globs with front matter, template overrides and source timeouts&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/2299704ed4f6dcdf4f77499fb08933bd10a8108e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/2299704ed4f6dcdf4f77499fb08933bd10a8108e&quot;&gt;&lt;tt&gt;2299704&lt;/tt&gt;&lt;/a&gt; Merge PR &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;4019032071&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/22&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/22/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/22&quot;&gt;#22&lt;/a&gt;: sources and 2-pass rendering pipeline&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/0001b8507638788c8958b474e01aa6643ab40216/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/0001b8507638788c8958b474e01aa6643ab40216&quot;&gt;&lt;tt&gt;0001b85&lt;/tt&gt;&lt;/a&gt; Implement sources and 2-pass rendering pipeline&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.12</id>
+    <title>Nagare v0.0.12</title>
+    <updated>2026-11-14T22:00:27Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.12"/>
+    <summary>Merge PR #75: decouple action-to-arrow semantics from layout via ActionConnector</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/1c1477990281fb0a3ab506ebc6f28022f81fa54d/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/1c1477990281fb0a3ab506ebc6f28022f81fa54d&quot;&gt;&lt;tt&gt;1c14779&lt;/tt&gt;&lt;/a&gt; Merge PR &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;4079030877&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/nagare/issues/75&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/nagare/pull/75/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/pull/75&quot;&gt;#75&lt;/a&gt;: decouple action-to-arrow semantics from layout via ActionConnector&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/9cece5e2483bc159d214eb7dd489df8c74024c2e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/9cece5e2483bc159d214eb7dd489df8c74024c2e&quot;&gt;&lt;tt&gt;9cece5e&lt;/tt&gt;&lt;/a&gt; Fix release workflow never running for tagged commits&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/b912d813c7ffd2a7d7714aa27670872ed7acba4d/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/b912d813c7ffd2a7d7714aa27670872ed7acba4d&quot;&gt;&lt;tt&gt;b912d81&lt;/tt&gt;&lt;/a&gt; Add generated diagram renders for PR &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;4079030877&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/nagare/issues/75&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/nagare/pull/75/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/pull/75&quot;&gt;#75&lt;/a&gt; [skip ci]&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/821a17b635ed25aa28dc9a7e0f42c39a215df8c9/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/821a17b635ed25aa28dc9a7e0f42c39a215df8c9&quot;&gt;&lt;tt&gt;821a17b&lt;/tt&gt;&lt;/a&gt; Decouple action-to-arrow logic from layout via ActionConnector interface&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/31a76f8062fda7fe92f6b3a53183ec527913c77e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/31a76f8062fda7fe92f6b3a53183ec527913c77e&quot;&gt;&lt;tt&gt;31a76f8&lt;/tt&gt;&lt;/a&gt; feat: refactor browser into atom sub-components and add request/response actions&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/352a2e5384db20dc9a1c4da354b49b07f7e6402a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/352a2e5384db20dc9a1c4da354b49b07f7e6402a&quot;&gt;&lt;tt&gt;352a2e5&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.13</id>
+    <title>Gengo v0.0.13</title>
+    <updated>2026-03-18T19:46:45Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.13"/>
+    <summary>Fix Nagare chart rendering integration</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/c996e8cdf5363674866faa4a0ebcf40183c7b649/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/c996e8cdf5363674866faa4a0ebcf40183c7b649&quot;&gt;&lt;tt&gt;c996e8c&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;4097316555&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/24&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/24/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/24&quot;&gt;#24&lt;/a&gt; from saasuke-labs/codex/fix-svg-rendering-issue-in-gengo&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/aafd9da8b8f31e8f48eacdcf820c56d50e563d2b/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/aafd9da8b8f31e8f48eacdcf820c56d50e563d2b&quot;&gt;&lt;tt&gt;aafd9da&lt;/tt&gt;&lt;/a&gt; Fix Nagare chart rendering integration&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/56bcd2d3ba436e682a31b65a10589fd9c4734ee6/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/56bcd2d3ba436e682a31b65a10589fd9c4734ee6&quot;&gt;&lt;tt&gt;56bcd2d&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;4091134102&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/23&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/23/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/23&quot;&gt;#23&lt;/a&gt; from saasuke-labs/codex/add-one-liner-for-specific-version-install&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/3fde6980e2e52b8682c1796185582ca2149fb883/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/3fde6980e2e52b8682c1796185582ca2149fb883&quot;&gt;&lt;tt&gt;3fde698&lt;/tt&gt;&lt;/a&gt; install: support VERSION env var for pinned one-line install&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/018c7e7f1451b0e4342359f4a52acad6a95a54d7/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/018c7e7f1451b0e4342359f4a52acad6a95a54d7&quot;&gt;&lt;tt&gt;018c7e7&lt;/tt&gt;&lt;/a&gt; docs: add one-liner for installing a specific version&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.12</id>
+    <title>Gengo v0.0.12</title>
+    <updated>2026-03-17T19:53:22Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.12"/>
+    <summary>upgrade nagare version</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/dce63ec86e96160c439f8967f48832c4592701b4/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/dce63ec86e96160c439f8967f48832c4592701b4&quot;&gt;&lt;tt&gt;dce63ec&lt;/tt&gt;&lt;/a&gt; upgrade nagare version&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.11</id>
+    <title>Gengo v0.0.11</title>
+    <updated>2026-02-10T18:24:14Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.11"/>
+    <summary>update nagare</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/4e4d29fa82df3ecfcd749767349b1b03148ca902/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/4e4d29fa82df3ecfcd749767349b1b03148ca902&quot;&gt;&lt;tt&gt;4e4d29f&lt;/tt&gt;&lt;/a&gt; update nagare&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.10</id>
+    <title>Gengo v0.0.10</title>
+    <updated>2026-01-29T21:26:45Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.10"/>
+    <summary>upgrade packages</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/54b91cdd67d160d88e6c74c3c1d69943f572eafb/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/54b91cdd67d160d88e6c74c3c1d69943f572eafb&quot;&gt;&lt;tt&gt;54b91cd&lt;/tt&gt;&lt;/a&gt; upgrade packages&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.9</id>
+    <title>Gengo v0.0.9</title>
+    <updated>2026-01-29T13:17:07Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.9"/>
+    <summary>Quote GITHUBWORKSPACE variable in git config</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/2aa96c7b06575e18e384485ac2dd662cfed3dffa/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/2aa96c7b06575e18e384485ac2dd662cfed3dffa&quot;&gt;&lt;tt&gt;2aa96c7&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3870560057&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/18&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/18/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/18&quot;&gt;#18&lt;/a&gt; from saasuke-labs/copilot/fix-release-failure-v0-0-9&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/e35cda8abecc5de29c464dce1b9cdf17d60a65b9/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/e35cda8abecc5de29c464dce1b9cdf17d60a65b9&quot;&gt;&lt;tt&gt;e35cda8&lt;/tt&gt;&lt;/a&gt; Quote GITHUB_WORKSPACE variable in git config&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/d33864431ec9cc393e5b9ef6182e9e5a5db16f1b/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/d33864431ec9cc393e5b9ef6182e9e5a5db16f1b&quot;&gt;&lt;tt&gt;d338644&lt;/tt&gt;&lt;/a&gt; Fix git safe directory error in release workflow&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/2b018b13ef842a2fb8d0e9ee7ab5ae9587afc136/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/2b018b13ef842a2fb8d0e9ee7ab5ae9587afc136&quot;&gt;&lt;tt&gt;2b018b1&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/886e64cb630698f52d62aabc7d8d5d53482bd918/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/886e64cb630698f52d62aabc7d8d5d53482bd918&quot;&gt;&lt;tt&gt;886e64c&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3869350758&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/17&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/17/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/17&quot;&gt;#17&lt;/a&gt; from saasuke-labs/copilot/run-dry-run-goreleaser&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/dd2b55227532cfedce0a6f908f931a76f57a5c5c/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/dd2b55227532cfedce0a6f908f931a76f57a5c5c&quot;&gt;&lt;tt&gt;dd2b552&lt;/tt&gt;&lt;/a&gt; Remove Windows ARM64 build due to missing toolchain&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/9b71af4f24fbb29ccdb13ce3d3c1a43e7688e25a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/9b71af4f24fbb29ccdb13ce3d3c1a43e7688e25a&quot;&gt;&lt;tt&gt;9b71af4&lt;/tt&gt;&lt;/a&gt; Add documentation for Darwin osxcross compiler names&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/b6cc0853f16c4211e07778a7f03fc52fad12b0a1/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/b6cc0853f16c4211e07778a7f03fc52fad12b0a1&quot;&gt;&lt;tt&gt;b6cc085&lt;/tt&gt;&lt;/a&gt; Fix Darwin cross-compilation toolchain paths for goreleaser&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/9c99eec7b285fe008ed7531e9db4be90568c5d53/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/9c99eec7b285fe008ed7531e9db4be90568c5d53&quot;&gt;&lt;tt&gt;9c99eec&lt;/tt&gt;&lt;/a&gt; Add explicit permissions to PR goreleaser workflow for security&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/8a8c91ac58e466955f534b9e54cbe7cd9fe714a9/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/8a8c91ac58e466955f534b9e54cbe7cd9fe714a9&quot;&gt;&lt;tt&gt;8a8c91a&lt;/tt&gt;&lt;/a&gt; Update validate workflow to run on PRs for parallel execution&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/d48afceb0b0a6ad8bdbb5dd89181e8b730cd300d/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/d48afceb0b0a6ad8bdbb5dd89181e8b730cd300d&quot;&gt;&lt;tt&gt;d48afce&lt;/tt&gt;&lt;/a&gt; Add goreleaser dry-run workflow for PRs&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/2c0713b29236e9d10ed3233094fa271d97daafac/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/2c0713b29236e9d10ed3233094fa271d97daafac&quot;&gt;&lt;tt&gt;2c0713b&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/45a0c3a635d595370d648d861d31d949e2f5832b/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/45a0c3a635d595370d648d861d31d949e2f5832b&quot;&gt;&lt;tt&gt;45a0c3a&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3869240129&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/16&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/16/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/16&quot;&gt;#16&lt;/a&gt; from saasuke-labs/copilot/fix-compilation-errors&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/be15a0cc21beaa92b085e4bac505baf6c8b1f00b/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/be15a0cc21beaa92b085e4bac505baf6c8b1f00b&quot;&gt;&lt;tt&gt;be15a0c&lt;/tt&gt;&lt;/a&gt; Fix goreleaser config and use goreleaser-cross container for CGO builds&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/f5b6bb1fc2318862378648897ff191613a469f9f/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/f5b6bb1fc2318862378648897ff191613a469f9f&quot;&gt;&lt;tt&gt;f5b6bb1&lt;/tt&gt;&lt;/a&gt; Initial plan for fixing goreleaser configuration and compilation errors&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/cb638406af81bb470e6c287afbbbedab020cec5a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/cb638406af81bb470e6c287afbbbedab020cec5a&quot;&gt;&lt;tt&gt;cb63840&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/736d83421ab41aec41103261514d989f03455894/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/736d83421ab41aec41103261514d989f03455894&quot;&gt;&lt;tt&gt;736d834&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3869103412&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/15&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/15/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/15&quot;&gt;#15&lt;/a&gt; from saasuke-labs/copilot/fix-release-job-error-again&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/1213f29adeca0fe0c7b48b9629735902e08fbe3e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/1213f29adeca0fe0c7b48b9629735902e08fbe3e&quot;&gt;&lt;tt&gt;1213f29&lt;/tt&gt;&lt;/a&gt; Fix release job: remove container and use goreleaser-action&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/5629e40272dbe0ad15c0ca0e64680df62901357d/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/5629e40272dbe0ad15c0ca0e64680df62901357d&quot;&gt;&lt;tt&gt;5629e40&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/abc227af84240bcdf734fb35c3fbbdb35371319e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/abc227af84240bcdf734fb35c3fbbdb35371319e&quot;&gt;&lt;tt&gt;abc227a&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3867403055&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/13&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/13/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/13&quot;&gt;#13&lt;/a&gt; from saasuke-labs/copilot/fix-git-repository-error&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/bb65139976ec14eca2234c6b3eb70fe49578c38e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/bb65139976ec14eca2234c6b3eb70fe49578c38e&quot;&gt;&lt;tt&gt;bb65139&lt;/tt&gt;&lt;/a&gt; Fix goreleaser git repository error by adding fetch-depth: 0&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/6b420e414ef4bbaf5b2857e2c38c2d21bb128d91/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/6b420e414ef4bbaf5b2857e2c38c2d21bb128d91&quot;&gt;&lt;tt&gt;6b420e4&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/ad1191c1f2996df493e3b1a36efecf3a19f44684/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/ad1191c1f2996df493e3b1a36efecf3a19f44684&quot;&gt;&lt;tt&gt;ad1191c&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3867344389&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/12&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/12/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/12&quot;&gt;#12&lt;/a&gt; from saasuke-labs/copilot/fix-goreleaser-version-issue&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/0bf652b1f63fb3e58c43026362080bf52a352aef/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/0bf652b1f63fb3e58c43026362080bf52a352aef&quot;&gt;&lt;tt&gt;0bf652b&lt;/tt&gt;&lt;/a&gt; Add version: 2 to goreleaser.yaml for v2 compatibility&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/8382a3a356733d6aec51142486add63bffeffcd4/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/8382a3a356733d6aec51142486add63bffeffcd4&quot;&gt;&lt;tt&gt;8382a3a&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/458a86256af2ecf9cfb7a0229ef351205836bb82/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/458a86256af2ecf9cfb7a0229ef351205836bb82&quot;&gt;&lt;tt&gt;458a862&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3867230813&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/11&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/11/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/11&quot;&gt;#11&lt;/a&gt; from saasuke-labs/copilot/fix-ci-error-for-v009&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/6cb2a58164843457c5faeaceafc315491a7c2814/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/6cb2a58164843457c5faeaceafc315491a7c2814&quot;&gt;&lt;tt&gt;6cb2a58&lt;/tt&gt;&lt;/a&gt; Update RELEASE.md with v0.0.9 fix instructions&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/5095057556f68bc7a8783546e74ffd5595fab0cf/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/5095057556f68bc7a8783546e74ffd5595fab0cf&quot;&gt;&lt;tt&gt;5095057&lt;/tt&gt;&lt;/a&gt; Use goreleaser-cross container for CGO cross-compilation&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/044822223355525f62a02f590ba37b613bbedd73/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/044822223355525f62a02f590ba37b613bbedd73&quot;&gt;&lt;tt&gt;0448222&lt;/tt&gt;&lt;/a&gt; Fix: Enable CGO in goreleaser to fix build errors&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/9ab7aa2bcc03eabbf54d79ee3767d4b3c528d78e/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/9ab7aa2bcc03eabbf54d79ee3767d4b3c528d78e&quot;&gt;&lt;tt&gt;9ab7aa2&lt;/tt&gt;&lt;/a&gt; Initial plan&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/7ec5cd4a03e62fe7d3108800321b5c5cfa63ebff/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/7ec5cd4a03e62fe7d3108800321b5c5cfa63ebff&quot;&gt;&lt;tt&gt;7ec5cd4&lt;/tt&gt;&lt;/a&gt; fix tests&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/e0914539750b80784a55913da5ac71f0ccd6fc44/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/e0914539750b80784a55913da5ac71f0ccd6fc44&quot;&gt;&lt;tt&gt;e091453&lt;/tt&gt;&lt;/a&gt; fix go.mod&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/b4057fa70c0f5ff727bfd28ca87f7651a92e656f/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/b4057fa70c0f5ff727bfd28ca87f7651a92e656f&quot;&gt;&lt;tt&gt;b4057fa&lt;/tt&gt;&lt;/a&gt; fix&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/d7a6d90bbf79b58e2a883232039716a2fc366573/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/d7a6d90bbf79b58e2a883232039716a2fc366573&quot;&gt;&lt;tt&gt;d7a6d90&lt;/tt&gt;&lt;/a&gt; fix build&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/5ee9e3a386f361dc1db6a5e3b07ad930196ff64d/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/5ee9e3a386f361dc1db6a5e3b07ad930196ff64d&quot;&gt;&lt;tt&gt;5ee9e3a&lt;/tt&gt;&lt;/a&gt; install nagare and use it as library&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.8</id>
+    <title>Nagare v0.0.8</title>
+    <updated>2026-01-28T20:04:59Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.8"/>
+    <summary>fix cgo issue in downstream projects</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/859c696246dc99093fe7d90ccdf32ff20435481a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/859c696246dc99093fe7d90ccdf32ff20435481a&quot;&gt;&lt;tt&gt;859c696&lt;/tt&gt;&lt;/a&gt; fix cgo issue in downstream projects&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.8</id>
+    <title>Gengo v0.0.8</title>
+    <updated>2026-01-17T15:19:06Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.8"/>
+    <summary></summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/53a5b70184ed11aca906cff02da8e43befd082ce/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/53a5b70184ed11aca906cff02da8e43befd082ce&quot;&gt;&lt;tt&gt;53a5b70&lt;/tt&gt;&lt;/a&gt; Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;3825349268&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/saasuke-labs/gengo/issues/10&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/saasuke-labs/gengo/pull/10/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/pull/10&quot;&gt;#10&lt;/a&gt; from saasuke-labs/copilot/release-gengo-version-008&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.7</id>
+    <title>Nagare v0.0.7</title>
+    <updated>2025-10-02T16:53:50Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.7"/>
+    <summary>small change to readme</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/73609a4b0b9d9d25f4c0cd7a42521fdaaf852132/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/73609a4b0b9d9d25f4c0cd7a42521fdaaf852132&quot;&gt;&lt;tt&gt;73609a4&lt;/tt&gt;&lt;/a&gt; small change to readme&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.6</id>
+    <title>Nagare v0.0.6</title>
+    <updated>2025-10-02T16:53:34Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.6"/>
+    <summary>small change to readme</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/73609a4b0b9d9d25f4c0cd7a42521fdaaf852132/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/73609a4b0b9d9d25f4c0cd7a42521fdaaf852132&quot;&gt;&lt;tt&gt;73609a4&lt;/tt&gt;&lt;/a&gt; small change to readme&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.3</id>
+    <title>Nagare v0.0.3</title>
+    <updated>2025-10-01T11:53:54Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.3"/>
+    <summary>add install script and release to more os</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/951e44d33b120ad1992e7b600ef5c8db3dff4355/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/951e44d33b120ad1992e7b600ef5c8db3dff4355&quot;&gt;&lt;tt&gt;951e44d&lt;/tt&gt;&lt;/a&gt; add install script and release to more os&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/nagare/releases/tag/v0.0.2</id>
+    <title>Nagare v0.0.2</title>
+    <updated>2025-10-01T11:46:56Z</updated>
+    <link href="https://saasuke-labs.com/releases/#nagare-v0.0.2"/>
+    <summary>update documentation</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/nagare/commit/e948ece4659778d3d3c6e22bb1a26b1e8b3675de/hovercard&quot; href=&quot;https://github.com/saasuke-labs/nagare/commit/e948ece4659778d3d3c6e22bb1a26b1e8b3675de&quot;&gt;&lt;tt&gt;e948ece&lt;/tt&gt;&lt;/a&gt; update documentation&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.7</id>
+    <title>Gengo v0.0.7</title>
+    <updated>2025-10-01T11:22:05Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.7"/>
+    <summary>fix: multiple nagare blocks not rendered</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/b24e001292d307f8e340047c82fcb702160bbbed/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/b24e001292d307f8e340047c82fcb702160bbbed&quot;&gt;&lt;tt&gt;b24e001&lt;/tt&gt;&lt;/a&gt; fix: multiple nagare blocks not rendered&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.6</id>
+    <title>Gengo v0.0.6</title>
+    <updated>2025-05-27T17:01:20Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.6"/>
+    <summary>allow pages defined in html without templating</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/918f12657cc9086bba92bc04ec18ef50625ffeb2/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/918f12657cc9086bba92bc04ec18ef50625ffeb2&quot;&gt;&lt;tt&gt;918f126&lt;/tt&gt;&lt;/a&gt; allow pages defined in html without templating&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.5</id>
+    <title>Gengo v0.0.5</title>
+    <updated>2025-05-26T12:55:34Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.5"/>
+    <summary>feat: add global metadata to the configuration</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/b8c71247862f00b2e5ab09ce836bbcb1320c6800/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/b8c71247862f00b2e5ab09ce836bbcb1320c6800&quot;&gt;&lt;tt&gt;b8c7124&lt;/tt&gt;&lt;/a&gt; feat: add global metadata to the configuration&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.4</id>
+    <title>Gengo v0.0.4</title>
+    <updated>2025-05-20T15:25:36Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.4"/>
+    <summary>feat: accept multiple yaml files that are merged in order</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/588149d631204fb4ca676686111c03209748137a/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/588149d631204fb4ca676686111c03209748137a&quot;&gt;&lt;tt&gt;588149d&lt;/tt&gt;&lt;/a&gt; feat: accept multiple yaml files that are merged in order&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.3</id>
+    <title>Gengo v0.0.3</title>
+    <updated>2025-05-16T14:39:53Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.3"/>
+    <summary>expose title into the layout generation</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/66b1584daf5bb19933b1faff8f7711c242cdb348/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/66b1584daf5bb19933b1faff8f7711c242cdb348&quot;&gt;&lt;tt&gt;66b1584&lt;/tt&gt;&lt;/a&gt; expose title into the layout generation&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.2</id>
+    <title>Gengo v0.0.2</title>
+    <updated>2025-05-15T08:40:21Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.2"/>
+    <summary>feat: copy static files</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/caf1d9919c1e09050545b9d9d401a7cbcf4ae877/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/caf1d9919c1e09050545b9d9d401a7cbcf4ae877&quot;&gt;&lt;tt&gt;caf1d99&lt;/tt&gt;&lt;/a&gt; feat: copy static files&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <id>https://github.com/saasuke-labs/gengo/releases/tag/v0.0.1</id>
+    <title>Gengo v0.0.1</title>
+    <updated>2025-05-13T07:56:24Z</updated>
+    <link href="https://saasuke-labs.com/releases/#gengo-v0.0.1"/>
+    <summary>chore: tidy go modules</summary>
+    <content type="html">&lt;h2&gt;Changelog&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&quot;commit-link&quot; data-hovercard-type=&quot;commit&quot; data-hovercard-url=&quot;https://github.com/saasuke-labs/gengo/commit/ad57670aadc4d49bfc412a4489e9ef83c39f6927/hovercard&quot; href=&quot;https://github.com/saasuke-labs/gengo/commit/ad57670aadc4d49bfc412a4489e9ef83c39f6927&quot;&gt;&lt;tt&gt;ad57670&lt;/tt&gt;&lt;/a&gt; chore: tidy go modules&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+</feed>

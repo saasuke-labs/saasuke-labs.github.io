@@ -1,162 +1,348 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saasuke Labs — small, sharp tools for publishing on the web</title>
+    <meta
+      name="description"
+      content="Saasuke Labs builds open tools in Go for people who publish on the web: Gengo (static sites), Nagare (diagrams as code) and Kotomi (comments)."
+    />
+    <meta property="og:site_name" content="Saasuke Labs" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Saasuke Labs"
+    />
+    <meta
+      property="og:description"
+      content="Open tools in Go for people who publish on the web: Gengo, Nagare and Kotomi."
+    />
+    <meta property="og:image" content="https://saasuke-labs.com/static/logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/png" href="/static/logo.png" />
+    <link
+      rel="alternate"
+      type="application/atom+xml"
+      title="Saasuke Labs releases"
+      href="/static/data/releases.xml"
+    />
 
+    <script>
+      
+      try {
+        var t = localStorage.getItem("theme");
+        if (t) document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Shippori+Mincho:wght@600;800&display=swap"
+    />
+    <link rel="stylesheet" href="/static/site.css" />
+
+    
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-7ZYXW0159J"
     ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
+      window.dataLayer = window.dataLayer || [];
       function gtag() {
-        dataLayer.push(arguments)
+        dataLayer.push(arguments);
       }
-      gtag("js", new Date())
-
-      gtag("config", "G-7ZYXW0159J")
+      gtag("js", new Date());
+      gtag("config", "G-7ZYXW0159J");
     </script>
-
-    <title>Saasuke-Labs</title>
-    <script>
-      function toggleDarkMode() {
-        document.documentElement.classList.toggle("dark")
-      }
-    </script>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body
-    class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100 font-sans transition-colors duration-300"
-  >
-    <header class="bg-white dark:bg-gray-800 shadow">
-      <div
-        class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center"
-      >
-        <div class="flex items-center space-x-3">
-          <img
-            src="/static/logo.png"
-            alt="Saasuke-Labs Logo"
-            class="h-10 w-auto"
-          />
-          <span class="text-2xl font-bold text-indigo-600 dark:text-indigo-400"
-            ><a href="/">Saasuke-Labs</a></span
-          >
-        </div>
-        <nav class="flex items-center space-x-4" style="display: none">
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="/">
+          <img src="/static/logo.png" alt="" width="34" height="42" />
+          Saasuke Labs
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="/#tools">Tools</a>
+          <a href="/releases/" >Releases</a>
           <a
-            href="#about"
-            class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-            >About</a
-          >
-          <a
-            href="#projects"
-            class="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
-            >Projects</a
+            class="nav-optional"
+            href="https://github.com/saasuke-labs"
+            rel="noopener"
+            >GitHub</a
           >
           <button
-            onclick="toggleDarkMode()"
-            class="text-sm px-3 py-1 rounded border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+            class="theme-toggle"
+            type="button"
+            aria-label="Switch between light and dark theme"
+            data-theme-toggle
           >
-            Toggle Dark Mode
+            ◐
           </button>
+          <a class="btn small" href="/sponsor/">Sponsor</a>
         </nav>
-        <div>
-          <script
-            type="text/javascript"
-            src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"
-          ></script>
-          <script type="text/javascript">
-            kofiwidget2.init("Support me on Ko-fi", "#818cf8", "V7V61FM5Z5")
-            kofiwidget2.draw()
-          </script>
-        </div>
       </div>
     </header>
 
-    <main
-      class="flex flex-col items-center justify-center text-center px-6 py-24"
-    >
-      <h2
-        class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white mb-6"
-      >
-        Building Tools with Soul
-      </h2>
-      <p class="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-xl">
-        Saasuke-Labs crafts simple, purposeful software — from tiny tools to
-        thoughtful platforms.
+    <main id="main"><section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Open tools, written in Go</p>
+      <h1>Small, sharp tools for people who <em>publish on the web</em>.</h1>
+      <p class="lede">
+        Saasuke Labs builds three tools that work alone and fit together: a
+        static site generator, a diagrams-as-code engine and a comment system
+        you host yourself.
       </p>
-      <a
-        href="#contact"
-        class="bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700 transition"
-      >
-        Get in Touch
-      </a>
-    </main>
+      <div class="actions">
+        <a class="btn" href="#tools">Explore the tools</a>
+        <a class="btn ghost" href="/sponsor/">Sponsor the work</a>
+      </div>
+    </div>
+    <div class="hero-mark" aria-hidden="true">
+      <img src="/static/logo.png" alt="" width="259" height="322" />
+    </div>
+  </div>
+</section>
 
-    <section
-      id="about"
-      class="bg-gray-100 dark:bg-gray-800 py-16 px-6 text-center"
-    >
-      <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-4">
-        What is Saasuke-Labs?
-      </h3>
-      <p class="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-        A playground and portfolio for software experiments, product prototypes,
-        and potential tools for people and businesses. Driven by curiosity,
-        built with care.
+<section class="section" id="tools">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The tools</p>
+      <h2>Three projects, one publishing workflow</h2>
+      <p>
+        Each one is a single Go binary with no runtime to install. Docs live
+        with each project and are published here.
       </p>
-    </section>
+    </div>
 
-    <section id="projects" class="bg-white dark:bg-gray-900 py-20 px-6">
-      <div class="max-w-6xl mx-auto text-center">
-        <h3 class="text-3xl font-bold mb-12 text-gray-900 dark:text-white">
-          Current Projects
-        </h3>
-        <div class="grid gap-12 grid-cols-1 md:grid-cols-2">
-          <!-- <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-            <h4
-              class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
-            >
-              <a href="/gsx/index.html">GSX</a>
-            </h4>
-            <p class="text-gray-700 dark:text-gray-300">
-              JSX syntact for Go — a server-side rendering toolkit with
-              zero-runtime overhead. Build dynamic, interactive UIs with Go's
-              type safety and composability.
-            </p>
-          </div> -->
+    <div class="tools">
+      <article class="tool">
+        <div class="tool-top">
+          <h3>Gengo</h3>
+          <a
+            class="tag version"
+            data-version="gengo"
+            href="/releases/#gengo"
+          ></a>
+        </div>
+        <p class="kind">Static site generator</p>
+        <p class="what">
+          Turns Markdown, HTML templates and one YAML manifest into a static
+          site. This site is built with it.
+        </p>
+        <ul>
+          <li>Pages rendered in parallel, with a plain mode for CI</li>
+          <li>Diagrams and charts in Markdown through Nagare</li>
+          <li>Pull data from any HTTP API at build time</li>
+        </ul>
+        <pre><code><span class="dim">$</span> gengo generate
+<span class="dim">$</span> gengo serve --watch</code></pre>
+        <div class="links">
+          <a href="/gengo/">Docs</a>
+          <a href="https://github.com/saasuke-labs/gengo" rel="noopener"
+            >GitHub</a
+          >
+          <a href="/releases/#gengo">Changelog</a>
+        </div>
+      </article>
 
-          <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-            <h4
-              class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
-            >
-              <a href="/gengo/index.html">Gengo</a>
-            </h4>
-            <p class="text-gray-700 dark:text-gray-300">
-              A modern, simple, yet powerful static site generator.
-            </p>
-          </div>
-          <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow">
-            <h4
-              class="text-xl font-semibold text-indigo-600 dark:text-indigo-400 mb-2"
-            >
-              <a href="/kotomi/index.html">Kotomi</a>
-            </h4>
-            <p class="text-gray-700 dark:text-gray-300">
-              A simple comment system for static sites — with AI-powered
-              moderation as a premium feature. Lightweight, privacy-focused, and
-              easy to integrate.
-            </p>
-          </div>
+      <article class="tool">
+        <div class="tool-top">
+          <h3>Nagare</h3>
+          <a
+            class="tag version"
+            data-version="nagare"
+            href="/releases/#nagare"
+          ></a>
+        </div>
+        <p class="kind">Diagrams as code</p>
+        <p class="what">
+          A small text language that renders architecture diagrams and charts
+          to SVG, so they live in version control next to the code.
+        </p>
+        <ul>
+          <li>Use it as a CLI, an HTTP server or a Go library</li>
+          <li>One visual system for every component</li>
+          <li>Transparent canvas that sits on any page background</li>
+        </ul>
+        <pre><code>web:Browser(text: "Shop")
+api:Server(title: "API")
+
+web.e --> api.w</code></pre>
+        <div class="links">
+          <a href="/nagare/">Docs</a>
+          <a href="https://github.com/saasuke-labs/nagare" rel="noopener"
+            >GitHub</a
+          >
+          <a href="/releases/#nagare">Changelog</a>
+        </div>
+      </article>
+
+      <article class="tool">
+        <div class="tool-top">
+          <h3>Kotomi</h3>
+          <a
+            class="tag version"
+            data-version="kotomi"
+            href="/releases/#kotomi"
+          ></a>
+        </div>
+        <p class="kind">Comments for static sites</p>
+        <p class="what">
+          Comments and reactions for pages that have no backend. Run one
+          container, embed a widget, moderate from an admin panel.
+        </p>
+        <ul>
+          <li>Self-hosted, with SQLite or Firestore storage</li>
+          <li>Several sites managed from one instance</li>
+          <li>Optional AI-assisted moderation</li>
+        </ul>
+        <pre><code><span class="dim">$</span> docker build -t kotomi .
+<span class="dim">$</span> docker run -p 8080:8080 kotomi</code></pre>
+        <div class="links">
+          <a href="/kotomi/">Docs</a>
+          <a href="https://github.com/saasuke-labs/kotomi" rel="noopener"
+            >GitHub</a
+          >
+          <a href="/releases/#kotomi">Changelog</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section sunk">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Better together</p>
+      <h2>From a text file to a page people can talk about</h2>
+    </div>
+    <div class="flow">
+      <div>
+        <span class="step">01 · DRAW</span>
+        <h3>Describe the diagram</h3>
+        <p>
+          Write a Nagare block inside your Markdown. No exported images to
+          keep in sync.
+        </p>
+      </div>
+      <div>
+        <span class="step">02 · BUILD</span>
+        <h3>Generate the site</h3>
+        <p>
+          Gengo renders the Markdown, the diagrams and any build-time data
+          into plain static HTML.
+        </p>
+      </div>
+      <div>
+        <span class="step">03 · DISCUSS</span>
+        <h3>Add the conversation</h3>
+        <p>
+          Drop the Kotomi widget into your template and readers can comment
+          and react on every page.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">Shipping</p>
+      <h2>Latest releases</h2>
+    </div>
+    <ul class="release-list" data-latest-releases>
+      <li>
+        <span class="summary"
+          >See the <a href="/releases/">release notes</a> for every
+          project.</span
+        >
+      </li>
+    </ul>
+    <p class="more"><a href="/releases/">All release notes →</a></p>
+  </div>
+</section>
+
+<section class="section" id="sponsor">
+  <div class="wrap">
+    <div class="cta">
+      <div>
+        <h2>Using one of these at work?</h2>
+        <p>
+          Saasuke Labs is independent and maintained in the open. Sponsorship
+          pays for maintenance time, documentation and the infrastructure
+          behind the hosted demos.
+        </p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="/sponsor/">Become a sponsor</a>
+        <a
+          class="btn ghost"
+          href="https://github.com/saasuke-labs"
+          rel="noopener"
+          >Star on GitHub</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="about">
+          <a class="brand" href="/">
+            <img src="/static/logo.png" alt="" width="34" height="42" />
+            Saasuke Labs
+          </a>
+          <p style="margin-top: 12px; max-width: 26em">
+            Independent, open tools in Go. This site is built with Gengo and
+            rebuilt on every product release.
+          </p>
+        </div>
+        <div>
+          <h4>Tools</h4>
+          <ul>
+            <li><a href="/gengo/">Gengo</a></li>
+            <li><a href="/nagare/">Nagare</a></li>
+            <li><a href="/kotomi/">Kotomi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Project</h4>
+          <ul>
+            <li><a href="/releases/">Releases</a></li>
+            <li><a href="/static/data/releases.xml">Release feed</a></li>
+            <li>
+              <a href="https://github.com/saasuke-labs" rel="noopener"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="/sponsor/">Become a sponsor</a></li>
+            <li>
+              <a href="https://github.com/sponsors/saasuke-labs" rel="noopener"
+                >GitHub Sponsors</a
+              >
+            </li>
+            <li>
+              <a href="https://ko-fi.com/saasukelabs" rel="noopener">Ko-fi</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
-
-    <footer
-      class="bg-white dark:bg-gray-900 text-center text-sm text-gray-500 dark:text-gray-400 py-6"
-    >
-      © 2025 Saasuke-Labs. All rights reserved.
     </footer>
+
+    <script src="/static/site.js" defer></script>
   </body>
 </html>

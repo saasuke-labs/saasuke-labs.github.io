@@ -1,0 +1,254 @@
+{
+  "products": {
+    "gengo": {
+      "name": "Gengo",
+      "repo": "saasuke-labs/gengo",
+      "latest": "v0.0.15",
+      "latestDate": "2026-11-15T08:10:27Z"
+    },
+    "nagare": {
+      "name": "Nagare",
+      "repo": "saasuke-labs/nagare",
+      "latest": "v0.0.13",
+      "latestDate": "2026-11-14T22:31:41Z"
+    },
+    "kotomi": {
+      "name": "Kotomi",
+      "repo": "saasuke-labs/kotomi",
+      "latest": "v0.1.0-beta.1",
+      "latestDate": "2026-11-14T22:11:49Z"
+    }
+  },
+  "releases": [
+    {
+      "id": "gengo-v0.0.15",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.15",
+      "prerelease": false,
+      "date": "2026-11-15T08:10:27Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.15",
+      "summary": "Bump nagare to v0.0.13 and detect empty diagrams on a transparent canvas"
+    },
+    {
+      "id": "nagare-v0.0.13",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.13",
+      "prerelease": false,
+      "date": "2026-11-14T22:31:41Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.13",
+      "summary": "Redesign components on a shared style system with light and dark themes"
+    },
+    {
+      "id": "kotomi-v0.1.0-beta.1",
+      "product": "kotomi",
+      "productName": "Kotomi",
+      "tag": "v0.1.0-beta.1",
+      "prerelease": true,
+      "date": "2026-11-14T22:11:49Z",
+      "url": "https://github.com/saasuke-labs/kotomi/releases/tag/v0.1.0-beta.1",
+      "summary": "Comprehensive beta tester guide with deployment options (Docker, Cloud Run, binary)"
+    },
+    {
+      "id": "gengo-v0.0.14",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.14",
+      "prerelease": false,
+      "date": "2026-11-14T22:07:47Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.14",
+      "summary": "Add content globs with front matter, template overrides and source timeouts"
+    },
+    {
+      "id": "nagare-v0.0.12",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.12",
+      "prerelease": false,
+      "date": "2026-11-14T22:00:27Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.12",
+      "summary": "Merge PR #75: decouple action-to-arrow semantics from layout via ActionConnector"
+    },
+    {
+      "id": "gengo-v0.0.13",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.13",
+      "prerelease": false,
+      "date": "2026-03-18T19:46:45Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.13",
+      "summary": "Fix Nagare chart rendering integration"
+    },
+    {
+      "id": "gengo-v0.0.12",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.12",
+      "prerelease": false,
+      "date": "2026-03-17T19:53:22Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.12",
+      "summary": "upgrade nagare version"
+    },
+    {
+      "id": "gengo-v0.0.11",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.11",
+      "prerelease": false,
+      "date": "2026-02-10T18:24:14Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.11",
+      "summary": "update nagare"
+    },
+    {
+      "id": "gengo-v0.0.10",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.10",
+      "prerelease": false,
+      "date": "2026-01-29T21:26:45Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.10",
+      "summary": "upgrade packages"
+    },
+    {
+      "id": "gengo-v0.0.9",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.9",
+      "prerelease": false,
+      "date": "2026-01-29T13:17:07Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.9",
+      "summary": "Quote GITHUBWORKSPACE variable in git config"
+    },
+    {
+      "id": "nagare-v0.0.8",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.8",
+      "prerelease": false,
+      "date": "2026-01-28T20:04:59Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.8",
+      "summary": "fix cgo issue in downstream projects"
+    },
+    {
+      "id": "gengo-v0.0.8",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.8",
+      "prerelease": false,
+      "date": "2026-01-17T15:19:06Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.8",
+      "summary": ""
+    },
+    {
+      "id": "nagare-v0.0.7",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.7",
+      "prerelease": false,
+      "date": "2025-10-02T16:53:50Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.7",
+      "summary": "small change to readme"
+    },
+    {
+      "id": "nagare-v0.0.6",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.6",
+      "prerelease": false,
+      "date": "2025-10-02T16:53:34Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.6",
+      "summary": "small change to readme"
+    },
+    {
+      "id": "nagare-v0.0.3",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.3",
+      "prerelease": false,
+      "date": "2025-10-01T11:53:54Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.3",
+      "summary": "add install script and release to more os"
+    },
+    {
+      "id": "nagare-v0.0.2",
+      "product": "nagare",
+      "productName": "Nagare",
+      "tag": "v0.0.2",
+      "prerelease": false,
+      "date": "2025-10-01T11:46:56Z",
+      "url": "https://github.com/saasuke-labs/nagare/releases/tag/v0.0.2",
+      "summary": "update documentation"
+    },
+    {
+      "id": "gengo-v0.0.7",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.7",
+      "prerelease": false,
+      "date": "2025-10-01T11:22:05Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.7",
+      "summary": "fix: multiple nagare blocks not rendered"
+    },
+    {
+      "id": "gengo-v0.0.6",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.6",
+      "prerelease": false,
+      "date": "2025-05-27T17:01:20Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.6",
+      "summary": "allow pages defined in html without templating"
+    },
+    {
+      "id": "gengo-v0.0.5",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.5",
+      "prerelease": false,
+      "date": "2025-05-26T12:55:34Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.5",
+      "summary": "feat: add global metadata to the configuration"
+    },
+    {
+      "id": "gengo-v0.0.4",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.4",
+      "prerelease": false,
+      "date": "2025-05-20T15:25:36Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.4",
+      "summary": "feat: accept multiple yaml files that are merged in order"
+    },
+    {
+      "id": "gengo-v0.0.3",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.3",
+      "prerelease": false,
+      "date": "2025-05-16T14:39:53Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.3",
+      "summary": "expose title into the layout generation"
+    },
+    {
+      "id": "gengo-v0.0.2",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.2",
+      "prerelease": false,
+      "date": "2025-05-15T08:40:21Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.2",
+      "summary": "feat: copy static files"
+    },
+    {
+      "id": "gengo-v0.0.1",
+      "product": "gengo",
+      "productName": "Gengo",
+      "tag": "v0.0.1",
+      "prerelease": false,
+      "date": "2025-05-13T07:56:24Z",
+      "url": "https://github.com/saasuke-labs/gengo/releases/tag/v0.0.1",
+      "summary": "chore: tidy go modules"
+    }
+  ]
+}
